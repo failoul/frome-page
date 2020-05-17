@@ -1,0 +1,156 @@
+<html>
+ <head>
+     <title>bouton callapsile dens bootstrap</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+     <meta name="viewport" content= "width=device-width , initial-scale=1 , shrink-to-fit=no">
+     <style>
+         .fakeimg{
+             height: 200px;
+             background: #000;
+         }
+         #bin{
+             margin-top: -10px;
+         }
+         #bak{
+            margin-top: -250px;
+         }
+         .col-sm-4{
+             margin-top:px;
+         }
+     </style>
+ </head>
+ <body>
+<div class="jumbotron text-center" style="margin-bottom : 0">
+    <img src="image/amesip.png" width="100%" height="50%">
+<h1 id="bin"> Exemple d'une page web reactive avec bootstrap 4</h1>
+<p>Redimenssionner la taille de page pour vois l'effet</p>
+
+
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#" >Menu navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="collapsileNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">lien1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">lien 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">lien 3</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" style="margin-top:30px ;">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>IDENTITE</h2>
+                <h5>photo:</h5>
+               
+                <div  id="bak" class="fakeimg">
+                    <style>
+                        body{
+                            
+                        }
+                        h1{
+                            font-size: 2.1rem;
+                            line-height: 1.4;
+                            letter-spacing: 0.5rem;
+                            text-align: center;
+                            color: #ffffff;
+                            margin-top: 270px;
+                
+                        }
+                        .maindiv{
+                            width: 90%;
+                            height: 200px;
+                            position: absolute;
+                            margin-top: -110px;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50% , -50%);
+                            background-image: url(image/b5.jpg);
+                            background-size: 100% 100%;
+                            box-shadow: 1px 2px 10px 5px wheat;
+                            animation: slider 9s infinite linear;
+                
+                
+                
+                
+                        }
+                        @keyframes slider{
+                            0%{background-image: url(image/b2.jpg); }
+                            35%{background-image: url(image/b3.jpg); }
+                            75%{ background-image: url(image/b4.jpg);}
+                            75%{ background-image: url(image/b7.jpg);}
+                
+                        }
+                
+                    </style>
+                    
+                            <h1>AMISIP-MAROC</h1>
+                        <div class="maindiv"></div>
+                </div>
+                <p>texte amon sujet...</p>
+                <h3>liens Utils</h3>
+                <p>Autres liens de la page web.</p>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">lien active</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">lien 1</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="menu.html">lien 2</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled " href="#">lien Disactive</a></li>
+                </ul>
+                <hr class="d-sm-none">
+            </div>
+    <div class="col-sm-8">
+        <h2>TITRE EN-TETE 1 </h2>
+        <h5>TITRE DESCRIPTION 1 Mars 2020</h5>
+        <div class="fakeimg">
+            <img src="image/b5.jpg" width="100%" height="100%">
+        </div>
+        <p>text de scription...</p>
+        <p>text text text text text text text text
+             text text text text text text text 
+              text text text text text text text text
+               text text text text text text text text 
+               text text text text text text text text text 
+               text text text text text text text text text 
+               text text text text text text text text text text 
+               text text text text text text text text text text
+                text text text text text text text text text text
+                 text text text text text text text </p><br>
+                 <h2>TITRE EN-TETE 1 </h2>
+        <h5>TITRE DESCRIPTION 1 Mars 2020</h5>
+        <div class="fakeimg"><img src="image/b6.jpg" width="100%" height="100%"></div>
+        <p>text de scription...</p>
+        <p>text text text text text text text text
+             text text text text text text text 
+              text text text text text text text text
+               text text text text text text text text 
+               text text text text text text text text text 
+               text text text text text text text text text 
+               text text text text text text text text text text 
+               text text text text text text text text text text
+                text text text text text text text text text text
+                 text text text text text text text </p>
+    </div>
+</div>
+</div>
+<div class="jumbotron text-center" style="margin-bottom : 0">
+    <p>Contenu du pied de page (Adresse-Téléphone-Mail.../incones face-instagram-youtube...</p>
+</div>
+
+
+
+
+
+
+
+
+
+ </body>
+ </html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>carousel fading image</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-------------------------------------------- CSS Code ---------------------------------------------->
+  <!link href="css/corps.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!------------------------------------------ bootstrap javascript ------------------------------------>
+  <!script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+  <style>
+  /* Mettre Images Entierement responsive */
+  .carousel-inner img {
+    width: 100%;
+    height:100%;
+    }
+
+  </style>
+
+
+  <style>
+  /* Cadre et Carte du Slider / Images */
+         .fakeimg {
+                   height: 300px;
+                   background: #aaa;
+                  }
+  </style>
+
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>carrousel images fondues</h1>
+        <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+            <!...indicateurs..>
+            <ul class="carousel-indicators">
+                <li data-traget="#demo" data-slide-to="0" class="active"></li>
+                <li data-traget="#demo" data-slide-to="2"></li>
+                <li data-traget="#demo" data-slide-to="3"></li>
+            </ul>
+            <!..carousel fading images..>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="4000">
+                    <img src="image/b3.jpg"  alt="carrousel slide 1" class="d-blok w-100">
+                </div>
+                <div class="carousel-item" data-interval="2000">
+                    <img src="image/b4.jpg" alt="carrousel slide 2" class="d-blok w-100">
+                </div>
+                <div class="carousel-item" data-interval="1000">
+                    <img src="image/b5.jpg" alt="carrousel slide 3" class="d-blok w-100">
+            </div>
+        <!..controles...>
+        <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+        <span class="carousel-cotrol-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">précédent</span>
+        </a>
+        
+        <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">suivant</span>
+            </a>
+
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="shadow p-3 mb-10 bg-white">
+            <h2 class="card-title">A M E S I P</h2>
+            <h3 class="card-subtitle"> Apropos</h3>
+            <p class="card-text">
+Association Marocaine d aide aux Enfants en situation Precaire, Reconnue d Utilite Publique.
+Prix des Nations Unies pour la societe civile (ONUDC).<br>
+Fondee en 1996 I Amesip , Association Marocaine d aide aux Enfants en situation Precaire, declaree d Utilite Publique
+le 18 Fevrier 1998, AMESIP , Association Marocaine d aide aux Enfants en situation Precaire, declaree d Utilite Publique
+les enfants Marocains consideres en situation precaire dans 
+une reinsertion dans la socite Marocaine, en leur permettant d acquerir un savoir adapte a leur situation et a leur
+besoins personnels.<br>
+-<b>ENCS : </b>Ecole Nationale du cirque shems'y de sale<br>
+-<b>CQIJA : </b>Centre de qualification et d'insertion des jeunes de Ameur<br>
+-<b>CACS  : </b>centre des Arts Culinaires shems'y de sale<br>
+-<b>CAEAA : </b>centre des Arts Eques<br>
+-<b>KMKN : </b>Ecole Nationale du cirque shems'y de sale<br>
+-<b>MJFF : </b>Ecole Nationale du cirque shems'y de sale<br>
+-<b>NEW : </b>Ecole Nationale du cirque shems'y de sale<br>
+
+
+            </p>
+       
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Centres Amesip:</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="collapsiblenavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">ENCS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CQIJA</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CAEAA</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CACS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">KMKN</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">MJFF</a></li>
+        </ul>
+    </div>
+    </nav>
+</div>
+</div>
+</body>
+</html>
